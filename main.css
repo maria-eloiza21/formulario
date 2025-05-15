@@ -1,0 +1,60 @@
+/* Configurações base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Título centralizado */
+  h1 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 20px;
+  }
+  
+  /* Container do formulário */
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Labels dos campos */
+  .form-label strong {
+    display: block;
+    margin-bottom: 6px;
+    color: #333;
+    font-weight: normal;
+  }
+  
+  /* Campos de entrada */
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  /* Botão de envio */
+  button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Efeito ao passar o mouse no botão */
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
